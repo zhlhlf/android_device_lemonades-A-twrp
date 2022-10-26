@@ -21,3 +21,10 @@ Display | Super AMOLED, 120Hz, HDR10+, DCI-P3 1100 nits (peak), 6.55 inches, 108
 ## Device picture
 
 ![realme GT Master Exp. Edition](https://fdn2.gsmarena.com/vv/pics/realme/realme-gt-master-explorer-2.jpg "realme GT Master Exp. Edition")
+
+## Credits
+SathamHussainM
+
+GarfieldHan (pomelohan)
+
+SK (sekaiacg)
