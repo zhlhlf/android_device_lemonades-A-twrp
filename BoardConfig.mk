@@ -170,3 +170,6 @@ TARGET_USES_LOGD := true
 
 # Default language
 TW_DEFAULT_LANGUAGE := zh_CN
+
+# Add TW_DEVICE_VERSION
+TW_DEVICE_VERSION := v1.4 by Luke Corden
