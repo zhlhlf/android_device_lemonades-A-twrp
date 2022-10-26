@@ -15,9 +15,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := bitra
+PRODUCT_RELEASE_NAME := RMX3366
 
-$(call inherit-product, device/realme/bitra/device.mk)
+$(call inherit-product, device/realme/RMX3366/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -28,11 +28,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := bitra
-PRODUCT_NAME := twrp_bitra
-PRODUCT_BRAND := Realme
-PRODUCT_MODEL := GT Neo 2
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_DEVICE := RMX3366
+PRODUCT_NAME := twrp_RMX3366
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := GT Master Exp. Edition
+PRODUCT_MANUFACTURER := realme
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
