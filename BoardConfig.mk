@@ -172,7 +172,7 @@ TARGET_USES_LOGD := true
 TW_DEFAULT_LANGUAGE := zh_CN
 
 # Add TW_DEVICE_VERSION
-TW_DEVICE_VERSION := v1.6_by-Luke_Corden
+TW_DEVICE_VERSION := v1.7_by-Luke_Corden
 
 # Fix Android 13 Decryption
 PLATFORM_VERSION := 13
