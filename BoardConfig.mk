@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX3366
+DEVICE_PATH := device/oneplus/lemonades
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,7 +45,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RE546F,RMX3366
+TARGET_OTA_ASSERT_DEVICE := LE2100,lemonades
 
 # Bootloader
 PRODUCT_PLATFORM := kona
@@ -134,7 +134,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+TARGET_RECOVERY_PIXEL_FRMAT := "BGRA_8888"
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
@@ -155,7 +155,7 @@ TW_NO_HAPTICS := false
 
 # Other flags
 TW_NO_LEGACY_PROPS := true
-TW_OVERRIDE_SYSTEM_PROPS := "ro.build.version.sdk"
+TW_OVERRIDE_SYSTEM_PROS := "ro.build.version.sdk"
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 
@@ -172,7 +172,7 @@ TARGET_USES_LOGD := true
 TW_DEFAULT_LANGUAGE := zh_CN
 
 # Add TW_DEVICE_VERSION
-TW_DEVICE_VERSION := v1.7_by-Luke_Corden
+TW_DEVICE_VERSION := by zhlhlf
 
 # Fix Android 13 Decryption
 PLATFORM_VERSION := 13
