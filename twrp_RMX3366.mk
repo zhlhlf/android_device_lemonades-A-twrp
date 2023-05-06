@@ -15,9 +15,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := RMX3366
+PRODUCT_RELEASE_NAME := lemonades
 
-$(call inherit-product, device/realme/RMX3366/device.mk)
+$(call inherit-product, device/oneplus/lemonades/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -28,11 +28,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX3366
-PRODUCT_NAME := twrp_RMX3366
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := GT Master Exp. Edition
-PRODUCT_MANUFACTURER := realme
+PRODUCT_DEVICE := lemonades
+PRODUCT_NAME := twrp_lemonades
+PRODUCT_BRAND := oneplus
+PRODUCT_MODEL := oneplus 9r
+PRODUCT_MANUFACTURER := oneplus
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
